@@ -1,0 +1,22 @@
+version: '1'
+services:
+  service1:
+    image: fitness1
+    ports:
+      - "8081:8081"
+  service2:
+    image: fitness2
+    ports:
+      - "8082:8082"
+  service3:
+    image: fitness3
+    ports:
+      - "8083:8083"
+  service4:
+    image: fitness4
+    ports:
+      - "8084:8084"
+  service5:
+    image: fitness5
+    ports:
+      - "8085:8085"
